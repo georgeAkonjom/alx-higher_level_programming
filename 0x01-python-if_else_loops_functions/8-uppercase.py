@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def uppercase(s):
     for c in s:
         ascii_val = ord(c)
