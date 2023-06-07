@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def pow(a, b):
-    if a is not None or b is not None:
+    if a is not None and b is not None:
         result = 1
         if a == 0:
             result = 0
