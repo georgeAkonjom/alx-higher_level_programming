@@ -14,4 +14,5 @@ def pow(a, b):
         else:
             for i in range(abs(b)):
                 result = result * a
+            return result
     return result
