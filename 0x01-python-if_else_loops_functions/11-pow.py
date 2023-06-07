@@ -7,6 +7,8 @@ def pow(a, b):
     if b == 0:
         return result
     if b < 0:
+        if a < 0:
+            a = abs(a)
         for i in range(abs(b)):
             result = result / a
         return result
