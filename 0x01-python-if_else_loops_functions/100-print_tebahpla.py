@@ -1,8 +1,10 @@
 #!/usr/bin/python3
+output = ""
 for i in range(ord('z'), ord('a') - 1, -1):
+    letter = chr(i)
     if i % 2 == 0:
-        i = chr(i)
-        print(i)
+        output += "{}".format(letter.lower())
     else:
-        i = chr(i)
-        print(i.upper())
+        output += "{}".format(letter.upper())
+
+print("{}".format(output), end="")
