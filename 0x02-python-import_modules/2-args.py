@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-#!/usr/bin/env python3
+#!/usr/bin/python3
 from sys import argv
 if __name__ == "__main__":
     arg_no = len(argv) - 1
