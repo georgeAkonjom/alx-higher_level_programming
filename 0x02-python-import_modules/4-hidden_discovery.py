@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 import hidden_4
-names = dir(hidden_4)
-
-for eachname in hidden_4:
-    print(eachname)
+if __name__ == "__main__":
+    for eachname in dir(hidden_4):
+        if eachname.startswith("__"):
+            continue
+        else:
+            print(eachname)
