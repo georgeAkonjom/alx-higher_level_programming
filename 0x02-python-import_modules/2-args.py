@@ -15,5 +15,4 @@ if __name__ == "__main__":
         if i == 0:
             continue
         else:
-            print("{}: {}".format(i, arg))
-        
+            print("{}: {}".format(i, arg))        
