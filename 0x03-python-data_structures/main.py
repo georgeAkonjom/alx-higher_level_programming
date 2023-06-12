@@ -1,7 +1,6 @@
-#!/usr/bin/python3
-element_at = __import__('1-element_at').element_at
+#!/usr/bin/env python3
+no_c = __import__('5-no_c').no_c
 
-my_list = [1, 2, 3, 4, 5]
-for i in range(-3, 20):
-    idx = i
-    print("Element at index {:d} is {}".format(idx, element_at(my_list, idx)))
+print(no_c("Best School"))
+print(no_c("Chicago"))
+print(no_c("C is fun!"))
