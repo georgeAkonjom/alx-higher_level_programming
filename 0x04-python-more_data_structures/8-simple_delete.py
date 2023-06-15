@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-del a_dictionary['key']
+def simple_delete(a_dictionary, key=""):
+    del a_dictionary['key']
