@@ -4,6 +4,9 @@ def roman_to_int(roman_string):
            'L': 50, 'C': 100, 'D': 500, 'M': 1000}
     index = 0
     result = 0
+
+    if not roman_string:
+        return None
     for letter in range(len(roman_string)):
         key = roman_string[letter]
         if len(roman_string) == 1:
