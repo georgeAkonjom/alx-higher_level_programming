@@ -7,7 +7,7 @@ def roman_to_int(roman_string):
 
     if not roman_string:
         return None
-    if isinstance(roman_string, str) == False
+    if isinstance(roman_string, str) is False:
         return None
     for letter in range(len(roman_string)):
         key = roman_string[letter]
