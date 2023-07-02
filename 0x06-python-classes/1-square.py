@@ -4,4 +4,6 @@
 
 class Square:
     """The square class"""
-    self.__size = size
+    def __init__(self, size):
+        """Initialize the objects attributes"""
+        self.__size == size
