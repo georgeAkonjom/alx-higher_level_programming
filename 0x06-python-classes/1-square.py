@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-"""Square module. With a size to it this time
-"""
+"""Square module. With a size to it this time"""
 
 
 class Square:
-    """The square class
-    """
+    """The square class"""
     self.__size = size
