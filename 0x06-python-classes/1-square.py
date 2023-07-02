@@ -3,5 +3,6 @@
 
 
 class Square:
-    """The square class"""
+    """The square class
+    """
     self.__size = size
