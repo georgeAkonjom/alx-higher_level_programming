@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """Square module. With a private instance of size, Type and Value gaurded"""
 
@@ -13,3 +12,7 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = size
+
+    def area(self):
+        """calcs and returns the area of a aquare object"""
+        return int(self.__size) * 4
