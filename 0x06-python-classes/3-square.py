@@ -15,4 +15,4 @@ class Square:
 
     def area(self):
         """calcs and returns the area of a aquare object"""
-        return int(self.__size) * 4
+        return int(pow(self.__size, 2))
