@@ -8,9 +8,11 @@ class Square:
         """Initialize the objects attributes"""
         self.size = size
         @property
+
         def size(self):
             return self.__size
         @size.setter
+
         def size(self, x):
             if not isinstance(size, int):
                 raise TypeError("size must be an integer")
