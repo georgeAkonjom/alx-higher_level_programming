@@ -28,6 +28,8 @@ class Square:
     def my_print(self):
         """prints the square using self.size as a metric"""
         i = 0
+        if self.size == 0:
+            print()
         for i in range(self.size):
             for i in range(self.size - 1):
                 print("#", end="")
