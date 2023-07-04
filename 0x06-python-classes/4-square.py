@@ -9,7 +9,7 @@ class Square:
         self.__size = size
         @property
         def size(self):
-            return self.__size
+            return self.size
         @size.setter
         def size(self, x):
             if not isinstance(size, int):
